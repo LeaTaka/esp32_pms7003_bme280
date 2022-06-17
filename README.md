@@ -1,13 +1,11 @@
-# esp32+pms7003+bme280
+# Dustsensor kit PMS7003 with wifi manager
 
-### Install windows driver
-https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+## Made for >
+- ESP32 DEVKITV with a ESP-WROOM-32 chip
+- Plantower PMS7003 dust sensor for measuring PM1 PM2.5 or PM10
+- BOSCH BME280for measuring humidity and pressure
 
-### Acess Point password = 
-```changeme```
+This repo includes a wifi manager from https://github.com/khoih-prog/ESPAsync_WiFiManager and contains patched LittleFS libs, which need to be referenced in wifimanager.h.
 
-### *Reinstall?*
-Rename cfg.h.bak to cfg.h and edit the pushurl inside into yours.
-Ask me for the pushurl when you don't have one.
-
-[The report can be reached here in case using my pushurl](https://app.powerbi.com/view?r=eyJrIjoiMmE1ZTkzOWItMjZlZS00OWQxLWJlZDQtYWY0ZDBkZjExYzY4IiwidCI6ImZlYTBjOWU4LTMwNjMtNDg5OC04OGY4LWNhZTQ1ZmFhYTg0ZCIsImMiOjl9)
+See the extras folder for goodies!
+PowerBi integration has been disabled, see extras/powerbi-code for reference
