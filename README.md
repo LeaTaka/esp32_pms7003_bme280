@@ -1,9 +1,10 @@
 # esp32+pms7003+bme280
 
-Acess Point password = 
+### Install windows driver
+https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+
+### Acess Point password = 
 ```changeme```
-
-
 
 ### *Reinstall?*
 Rename cfg.h.bak to cfg.h and edit the pushurl inside into yours.
